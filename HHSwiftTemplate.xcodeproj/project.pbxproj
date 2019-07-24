@@ -22,6 +22,7 @@
 		D835CA0E22E857D500168BC9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D835CA0822E857D400168BC9 /* .gitkeep */; };
 		D835CA0F22E857D500168BC9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D835CA0A22E857D400168BC9 /* .gitkeep */; };
 		D835CA1022E857D500168BC9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D835CA0C22E857D400168BC9 /* .gitkeep */; };
+		D835CA1322E858E000168BC9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D835CA1222E858E000168BC9 /* .gitkeep */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		D835CA0822E857D400168BC9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		D835CA0A22E857D400168BC9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		D835CA0C22E857D400168BC9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		D835CA1222E858E000168BC9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		D835C9CF22E8482700168BC9 /* HHSwiftTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				D835CA1122E858E000168BC9 /* Constants */,
 				D835CA0B22E857D400168BC9 /* Factories */,
 				D835CA0722E857D400168BC9 /* Protocols */,
 				D835CA0922E857D400168BC9 /* Router */,
@@ -190,6 +193,14 @@
 			path = Factories;
 			sourceTree = "<group>";
 		};
+		D835CA1122E858E000168BC9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D835CA1222E858E000168BC9 /* .gitkeep */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -261,6 +272,7 @@
 				D835CA0D22E857D500168BC9 /* .gitkeep in Resources */,
 				D835C9FB22E8536D00168BC9 /* .gitkeep in Resources */,
 				D835C9FC22E8536D00168BC9 /* .gitkeep in Resources */,
+				D835CA1322E858E000168BC9 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
