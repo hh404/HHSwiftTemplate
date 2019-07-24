@@ -24,6 +24,7 @@
 		D835CA1022E857D500168BC9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D835CA0C22E857D400168BC9 /* .gitkeep */; };
 		D835CA1322E858E000168BC9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D835CA1222E858E000168BC9 /* .gitkeep */; };
 		D835CA1522E85A4700168BC9 /* DeepLinkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D835CA1422E85A4700168BC9 /* DeepLinkConstants.swift */; };
+		D835CA1822E8632400168BC9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D835CA1722E8632400168BC9 /* .gitkeep */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		D835CA0C22E857D400168BC9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		D835CA1222E858E000168BC9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		D835CA1422E85A4700168BC9 /* DeepLinkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkConstants.swift; sourceTree = "<group>"; };
+		D835CA1722E8632400168BC9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		D835C9CF22E8482700168BC9 /* HHSwiftTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				D835CA1622E8632300168BC9 /* Services */,
 				D835CA1122E858E000168BC9 /* Constants */,
 				D835CA0B22E857D400168BC9 /* Factories */,
 				D835CA0722E857D400168BC9 /* Protocols */,
@@ -204,6 +207,14 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
+		D835CA1622E8632300168BC9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D835CA1722E8632400168BC9 /* .gitkeep */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -274,6 +285,7 @@
 				D835C9E722E84DB400168BC9 /* .gitkeep in Resources */,
 				D835CA0D22E857D500168BC9 /* .gitkeep in Resources */,
 				D835C9FB22E8536D00168BC9 /* .gitkeep in Resources */,
+				D835CA1822E8632400168BC9 /* .gitkeep in Resources */,
 				D835C9FC22E8536D00168BC9 /* .gitkeep in Resources */,
 				D835CA1322E858E000168BC9 /* .gitkeep in Resources */,
 			);
