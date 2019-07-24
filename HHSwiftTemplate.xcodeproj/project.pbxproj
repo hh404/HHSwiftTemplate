@@ -13,6 +13,15 @@
 		D835C9E422E84CA100168BC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D835C9E322E84CA100168BC9 /* AppDelegate.swift */; };
 		D835C9E722E84DB400168BC9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D835C9E622E84DB400168BC9 /* .gitkeep */; };
 		D835C9ED22E8507100168BC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D835C9EC22E8507100168BC9 /* Assets.xcassets */; };
+		D835C9F022E851DF00168BC9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D835C9EF22E851DF00168BC9 /* .gitkeep */; };
+		D835C9F522E8528300168BC9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D835C9F222E8528200168BC9 /* .gitkeep */; };
+		D835C9FB22E8536D00168BC9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D835C9F922E8536D00168BC9 /* .gitkeep */; };
+		D835C9FC22E8536D00168BC9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D835C9FA22E8536D00168BC9 /* .gitkeep */; };
+		D835C9FF22E8546F00168BC9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D835C9FE22E8546F00168BC9 /* .gitkeep */; };
+		D835CA0D22E857D500168BC9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D835CA0622E857D400168BC9 /* .gitkeep */; };
+		D835CA0E22E857D500168BC9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D835CA0822E857D400168BC9 /* .gitkeep */; };
+		D835CA0F22E857D500168BC9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D835CA0A22E857D400168BC9 /* .gitkeep */; };
+		D835CA1022E857D500168BC9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D835CA0C22E857D400168BC9 /* .gitkeep */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		D835C9E622E84DB400168BC9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		D835C9E922E84DF800168BC9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D835C9EC22E8507100168BC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D835C9EF22E851DF00168BC9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		D835C9F222E8528200168BC9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		D835C9F922E8536D00168BC9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		D835C9FA22E8536D00168BC9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		D835C9FE22E8546F00168BC9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		D835CA0622E857D400168BC9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		D835CA0822E857D400168BC9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		D835CA0A22E857D400168BC9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		D835CA0C22E857D400168BC9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,13 @@
 		D835C9CF22E8482700168BC9 /* HHSwiftTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				D835CA0B22E857D400168BC9 /* Factories */,
+				D835CA0722E857D400168BC9 /* Protocols */,
+				D835CA0922E857D400168BC9 /* Router */,
+				D835CA0522E857D400168BC9 /* Viper */,
+				D835C9FD22E8546F00168BC9 /* Models */,
+				D835C9F722E8536D00168BC9 /* ViewControllers */,
+				D835C9EE22E851DF00168BC9 /* Modules */,
 				D835C9E822E84DF800168BC9 /* Resources */,
 				D835C9E522E84DB400168BC9 /* Extensions */,
 				D835C9E222E84CA100168BC9 /* Application */,
@@ -89,6 +114,80 @@
 				D835C9E922E84DF800168BC9 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		D835C9EE22E851DF00168BC9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D835C9F122E8528200168BC9 /* ModuleA */,
+				D835C9EF22E851DF00168BC9 /* .gitkeep */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D835C9F122E8528200168BC9 /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				D835C9F222E8528200168BC9 /* .gitkeep */,
+			);
+			path = ModuleA;
+			sourceTree = "<group>";
+		};
+		D835C9F722E8536D00168BC9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D835C9F822E8536D00168BC9 /* Home */,
+				D835C9FA22E8536D00168BC9 /* .gitkeep */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D835C9F822E8536D00168BC9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D835C9F922E8536D00168BC9 /* .gitkeep */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D835C9FD22E8546F00168BC9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D835C9FE22E8546F00168BC9 /* .gitkeep */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D835CA0522E857D400168BC9 /* Viper */ = {
+			isa = PBXGroup;
+			children = (
+				D835CA0622E857D400168BC9 /* .gitkeep */,
+			);
+			path = Viper;
+			sourceTree = "<group>";
+		};
+		D835CA0722E857D400168BC9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D835CA0822E857D400168BC9 /* .gitkeep */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		D835CA0922E857D400168BC9 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				D835CA0A22E857D400168BC9 /* .gitkeep */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		D835CA0B22E857D400168BC9 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				D835CA0C22E857D400168BC9 /* .gitkeep */,
+			);
+			path = Factories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,8 +250,17 @@
 			files = (
 				D835C9DB22E8482A00168BC9 /* LaunchScreen.storyboard in Resources */,
 				D835C9D622E8482700168BC9 /* Main.storyboard in Resources */,
+				D835CA0E22E857D500168BC9 /* .gitkeep in Resources */,
+				D835CA0F22E857D500168BC9 /* .gitkeep in Resources */,
+				D835C9F022E851DF00168BC9 /* .gitkeep in Resources */,
+				D835C9FF22E8546F00168BC9 /* .gitkeep in Resources */,
+				D835C9F522E8528300168BC9 /* .gitkeep in Resources */,
 				D835C9ED22E8507100168BC9 /* Assets.xcassets in Resources */,
+				D835CA1022E857D500168BC9 /* .gitkeep in Resources */,
 				D835C9E722E84DB400168BC9 /* .gitkeep in Resources */,
+				D835CA0D22E857D500168BC9 /* .gitkeep in Resources */,
+				D835C9FB22E8536D00168BC9 /* .gitkeep in Resources */,
+				D835C9FC22E8536D00168BC9 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
