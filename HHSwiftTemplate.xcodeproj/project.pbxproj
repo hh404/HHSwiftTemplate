@@ -23,6 +23,7 @@
 		D835CA0F22E857D500168BC9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D835CA0A22E857D400168BC9 /* .gitkeep */; };
 		D835CA1022E857D500168BC9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D835CA0C22E857D400168BC9 /* .gitkeep */; };
 		D835CA1322E858E000168BC9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D835CA1222E858E000168BC9 /* .gitkeep */; };
+		D835CA1522E85A4700168BC9 /* DeepLinkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D835CA1422E85A4700168BC9 /* DeepLinkConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		D835CA0A22E857D400168BC9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		D835CA0C22E857D400168BC9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		D835CA1222E858E000168BC9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		D835CA1422E85A4700168BC9 /* DeepLinkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				D835CA1222E858E000168BC9 /* .gitkeep */,
+				D835CA1422E85A4700168BC9 /* DeepLinkConstants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D835CA1522E85A4700168BC9 /* DeepLinkConstants.swift in Sources */,
 				D835C9E422E84CA100168BC9 /* AppDelegate.swift in Sources */,
 				D835C9D322E8482700168BC9 /* ViewController.swift in Sources */,
 			);
