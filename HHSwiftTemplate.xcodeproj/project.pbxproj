@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		D835C9D322E8482700168BC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D835C9D222E8482700168BC9 /* ViewController.swift */; };
 		D835C9D622E8482700168BC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D835C9D422E8482700168BC9 /* Main.storyboard */; };
-		D835C9D822E8482A00168BC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D835C9D722E8482A00168BC9 /* Assets.xcassets */; };
 		D835C9DB22E8482A00168BC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D835C9D922E8482A00168BC9 /* LaunchScreen.storyboard */; };
 		D835C9E422E84CA100168BC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D835C9E322E84CA100168BC9 /* AppDelegate.swift */; };
+		D835C9E722E84DB400168BC9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D835C9E622E84DB400168BC9 /* .gitkeep */; };
+		D835C9ED22E8507100168BC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D835C9EC22E8507100168BC9 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D835C9CD22E8482700168BC9 /* HHSwiftTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHSwiftTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D835C9D222E8482700168BC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D835C9D522E8482700168BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D835C9D722E8482A00168BC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D835C9DA22E8482A00168BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D835C9DC22E8482A00168BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D835C9E322E84CA100168BC9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D835C9E622E84DB400168BC9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		D835C9E922E84DF800168BC9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D835C9EC22E8507100168BC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +56,12 @@
 		D835C9CF22E8482700168BC9 /* HHSwiftTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				D835C9E822E84DF800168BC9 /* Resources */,
+				D835C9E522E84DB400168BC9 /* Extensions */,
 				D835C9E222E84CA100168BC9 /* Application */,
 				D835C9D222E8482700168BC9 /* ViewController.swift */,
 				D835C9D422E8482700168BC9 /* Main.storyboard */,
-				D835C9D722E8482A00168BC9 /* Assets.xcassets */,
 				D835C9D922E8482A00168BC9 /* LaunchScreen.storyboard */,
-				D835C9DC22E8482A00168BC9 /* Info.plist */,
 			);
 			path = HHSwiftTemplate;
 			sourceTree = "<group>";
@@ -70,6 +72,23 @@
 				D835C9E322E84CA100168BC9 /* AppDelegate.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		D835C9E522E84DB400168BC9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D835C9E622E84DB400168BC9 /* .gitkeep */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D835C9E822E84DF800168BC9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D835C9EC22E8507100168BC9 /* Assets.xcassets */,
+				D835C9E922E84DF800168BC9 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,8 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D835C9DB22E8482A00168BC9 /* LaunchScreen.storyboard in Resources */,
-				D835C9D822E8482A00168BC9 /* Assets.xcassets in Resources */,
 				D835C9D622E8482700168BC9 /* Main.storyboard in Resources */,
+				D835C9ED22E8507100168BC9 /* Assets.xcassets in Resources */,
+				D835C9E722E84DB400168BC9 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +312,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3KX659AR4;
-				INFOPLIST_FILE = HHSwiftTemplate/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HHSwiftTemplate/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +330,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3KX659AR4;
-				INFOPLIST_FILE = HHSwiftTemplate/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HHSwiftTemplate/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
